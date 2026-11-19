@@ -95,6 +95,10 @@ Run `GET /v1/payment/coins` for the full list with contract addresses.
 - Chainsites need to be deployed & activated in the Pakt Command Center before API access works
 - API key comes from the Control Panel tab in the Pakt Command Center (PCC)
 
+## Hash your contract
+
+Before funding a job, hash its complete terms and fix every problem the hash step lists. After the escrow exists, sign the terms and keep the hash and signature with the job; checking the escrow's hash works once the server records it. See [references/job-terms.md](references/job-terms.md).
+
 ## Full API Reference
 See `references/api-reference.md` for detailed request/response schemas.
 See `references/escrow-flow.md` for the complete escrow lifecycle with examples.
