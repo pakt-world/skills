@@ -1,6 +1,6 @@
 ---
 name: pakt
-description: Interact with the Pakt platform API to build and manage Chainsites (Web3 apps with blockchain baked in). Use when Brendan or Pakt Pack members ask to create accounts, manage escrow, handle wallets, upload files, or build/configure Pakt-powered applications. Triggers on: "build a pakt app", "create escrow", "check wallet", "upload to chainsite", "pakt api", "psilo", or any reference to Pakt's SDK/API.
+description: Interact with the Pakt platform API to build and manage Chainsites (Web3 apps with blockchain baked in). Use when a user or a Pakt Pack member asks to create accounts, manage escrow, handle wallets, upload files, or build/configure Pakt-powered applications. Triggers on: "build a pakt app", "create escrow", "check wallet", "upload to chainsite", "pakt api", "psilo", or any reference to Pakt's SDK/API.
 ---
 
 # Pakt Skill
@@ -94,6 +94,10 @@ Run `GET /v1/payment/coins` for the full list with contract addresses.
 - File uploads go to CloudFront CDN; `url` in response is immediately accessible
 - Chainsites need to be deployed & activated in the Pakt Command Center before API access works
 - API key comes from the Control Panel tab in the Pakt Command Center (PCC)
+
+## Hash your contract
+
+Before funding a job, hash its complete terms and fix every problem the hash step lists. After the escrow exists, sign the terms and keep the hash and signature with the job; checking the escrow's hash works once the server records it. See [references/job-terms.md](references/job-terms.md).
 
 ## Full API Reference
 See `references/api-reference.md` for detailed request/response schemas.
