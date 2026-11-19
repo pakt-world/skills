@@ -1,6 +1,6 @@
 ---
 name: pakt
-description: Interact with the Pakt platform API to build and manage Chainsites (Web3 apps with blockchain baked in). Use when Brendan or Pakt Pack members ask to create accounts, manage escrow, handle wallets, upload files, or build/configure Pakt-powered applications. Triggers on: "build a pakt app", "create escrow", "check wallet", "upload to chainsite", "pakt api", "psilo", or any reference to Pakt's SDK/API.
+description: Interact with the Pakt platform API to build and manage Chainsites (Web3 apps with blockchain baked in). Use when a user or a Pakt Pack member asks to create accounts, manage escrow, handle wallets, upload files, or build/configure Pakt-powered applications. Triggers on: "build a pakt app", "create escrow", "check wallet", "upload to chainsite", "pakt api", "psilo", or any reference to Pakt's SDK/API.
 ---
 
 # Pakt Skill
